@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leegould119/reaact-starter-template.git"
+    "url": "git+https://github.com/Deleldur/Tryhards.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leegould119/reaact-starter-template/issues"
+    "url": "https://github.com/Deleldur/Tryhards/issues"
   },
-  "homepage": "https://github.com/leegould119/reaact-starter-template#readme",
+  "homepage": "https://github.com/Deleldur/Tryhards#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
