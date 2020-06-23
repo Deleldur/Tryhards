@@ -1,7 +1,19 @@
 import React, { Component } from "react";
+import Navigation from './common/Navigation';
+import "../sass/main.scss";
+import Home from './Pages/Home';
 
-export default class componentName extends Component {
+ class App extends Component {
   render() {
-    return <p>starter template</p>;
+    return (
+
+      <React.Fragment>
+      <Home />
+      </React.Fragment>
+      
+   );
   }
 }
+
+
+export default App;

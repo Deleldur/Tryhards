@@ -1,1 +1,19 @@
-//
+@import "color","hamburger","simple-grid";
+
+.header {
+    
+    overflow: hidden;
+    background-image: url(../img/B1.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    border: solid;
+}
+
+
+
+
+
