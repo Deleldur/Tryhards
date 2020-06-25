@@ -5,13 +5,16 @@ import React, { Component } from 'react'
     render() {
         return (
             <div>
+
              <h1 className="welcome">
                  Welcome to Tryhards!
             </h1>
 
              <p className="info">
                  This is Tryhards a ...serius? guild! well
-                 atleast we have fun! We have been around since the
+                 atleast we have fun! We make our 
+                 home on the EU-Realm Ashbringer as
+                 the mighty Alliance! and we have been around since the
                  launch of classic World of Warcraft and we are currently
                  clearing three Raids in one night and we have raid days and 
                  hours on Mondays and Wednesdays from 20:00 to 23:00 with invites
@@ -24,8 +27,7 @@ import React, { Component } from 'react'
                  as everyone pitch in and do their part of the job. If you think 
                  you have what it takes to be part of this dysfunctional family 
                  feel free to look further down the page on the recruitment section. 
-                 
-             </p>
+            </p>
 
             <div className="boss"></div>
             

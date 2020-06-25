@@ -12,7 +12,7 @@ import image from "../../img/B1.jpg";
             <Banner image={image} id={"JimsBanner"}/>
             <Content/>
             </div>
-            <Footer />
+            <Footer/>
             
           </React.Fragment>
         )

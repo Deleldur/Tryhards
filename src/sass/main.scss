@@ -1,5 +1,7 @@
 @import "color","hamburger","simple-grid";
 
+
+
 .banner {
 
  background-image: url("/src/img/B1.jpg");
@@ -9,9 +11,7 @@
  margin-left: auto;
  margin-right: auto;
  display: block;
- border-style: solid;
- border-width: medium;
- border-color: $gold;    
+ border-bottom: medium solid $gold;
  background-position: center top;
  background-repeat: no-repeat;
  margin-bottom: 0;
@@ -21,11 +21,10 @@
 .content {
     
 color: $white;
-max-width: 1260px;
-border: solid;
-border-color: $gold; 
+max-width: auto;
 margin-left: auto;
 margin-right: auto;
+padding-bottom: 5%;
     
 }
 
@@ -54,8 +53,21 @@ margin-right: auto;
     border-style: solid;
     border-width: medium;
     border-color: $gold;
+}
+
+.main-footer {
+    background-color: $black;
+    color: $white;
+    height: auto;
+    padding-top: 2%;
+    overflow: hidden;
+    text-align: center;
     
-    
+    border-top: medium solid $gold;
+}
+
+.footer-text {
+    font-size: 15px;
 }
 
 
