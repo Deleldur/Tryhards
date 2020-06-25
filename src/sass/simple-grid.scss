@@ -10,13 +10,13 @@ $font-weight-heavy: 700;
 $font-height: 1.5;
 
 // colors
-$dark-grey: #333447;
-$dark-gray: #333447; // for the Americans
+
 
 // universal
 
 html,
 body {
+  background-color: $dark-blue;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -28,18 +28,17 @@ body {
 
 * {
   font-family: $font-family;
-  color: $dark-grey;
   line-height: $font-height;
 }
 
 // typography
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -59,7 +58,7 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   font-weight: 200;
   line-height: 1.8;
 }

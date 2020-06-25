@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Navigation from './common/Navigation';
 import "../sass/main.scss";
 import Home from './Pages/Home';
 
