@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-@import "color","hamburger","simple-grid";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+@import "color","navigation","simple-grid","typeography";
 
 
 
@@ -16,7 +17,40 @@
  background-position: center top;
  background-repeat: no-repeat;
  margin-bottom: 0;
+ margin-top: 0;
+ 
     
+}
+
+.tryhards {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3rem;
+    text-align: center;
+    color: $red;
+    -webkit-text-stroke: 0.1px $gold;
+}
+    
+@media (min-width: 600px) {
+    .tryhards {
+        font-size: 4.5rem;
+    }
+}
+
+.community {
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: $red;
+    -webkit-text-stroke: 0.1px $gold;
+}
+
+@media (min-width: 600px) {
+    .community {
+        font-size: 3rem;
+    }
 }
 
 .content {
@@ -26,17 +60,20 @@ max-width: auto;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 5%;
+margin-top: 0;
     
 }
 
 .welcome {
-
+    font-family: $Orbitron;
     padding-left: 10%;
     padding-top: 5%;
+    margin-top: 0;
+    
 }
 
 .info {
-
+    
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 7%;
@@ -54,6 +91,7 @@ padding-bottom: 5%;
     border-style: solid;
     border-width: medium;
     border-color: $gold;
+    margin-bottom: 80px;
 }
 
 .main-footer {
@@ -69,6 +107,27 @@ padding-bottom: 5%;
 
 .footer-text {
     font-size: 15px;
+}
+
+.youtube-title {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: $red;
+    -webkit-text-stroke: 0.1px $gold;
+}
+    
+@media (min-width: 600px) {
+    .youtube-title {
+        font-size: 3rem;
+    }
+}
+
+.line-break {
+    max-width: 1000px;
+    
 }
 
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Banner, Footer, Content } from '../common/index';
+import { Banner, Footer, Content, Navigation,
+ } from '../common/index';
 import image from "../../img/B1.jpg";
 
 
@@ -8,6 +9,7 @@ import image from "../../img/B1.jpg";
         return (
           
           <React.Fragment>
+            <Navigation/>
             <div className="content">
             <Banner image={image} id={"JimsBanner"}/>
             <Content/>

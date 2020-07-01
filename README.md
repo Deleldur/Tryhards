@@ -83,3 +83,9 @@ https://prettier.io/docs/en/configuration.html
 - read more
   https://www.npmjs.com/package/npm-check
   - npm i -g npm-check
+
+  ## install ReactPlayer NPM Package
+  read more
+  https://coderrocketfuel.com/article/embed-a-youtube-video-in-a-react-webpage
+
+  run npm install react-player --save

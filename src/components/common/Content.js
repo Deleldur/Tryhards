@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 
+
  class Content extends Component {
     render() {
         return (
@@ -30,13 +31,15 @@ import React, { Component } from 'react'
             </p>
 
             <div className="boss"></div>
+
+            <hr className="line-break"/>
+
             
+
+            <h1 className="youtube-title">Tryhards VS Neffarian</h1>
+
             </div>
 
-               
-
-            
-             
         )
     }
 }

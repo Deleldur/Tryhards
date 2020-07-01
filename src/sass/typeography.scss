@@ -1,14 +1,8 @@
 $Paytone-One: "Paytone One", sans-serif;
+$Orbitron: "Orbitron", sans-serif;
 
-body {
-    background-color: $white;
-    font-family: $Paytone-One;
-    font-weight: $regular-weight;
-    color: $grey;
-    line-height: 1.65em;
-    border: 0px;
-    margin: 0px;
-  }
+  $lightweight: 400;
+  
   p {
     margin-bottom: 1.15rem;
   }
@@ -27,13 +21,13 @@ body {
     margin-top: 0;
     font-size: 1.802em;
     text-transform: uppercase;
-    font-weight: $bold-weight;
+    
   }
   
   h2 {
     font-size: 1.502em;
     text-transform: capitalize;
-    font-weight: $medium-weight;
+    
   }
   
   h3 {
