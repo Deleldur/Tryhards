@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Banner, Footer, Content, Navigation,
+import { Banner, Footer, Content, Navigation
  } from '../common/index';
 import image from "../../img/B1.jpg";
 
@@ -15,7 +15,6 @@ import image from "../../img/B1.jpg";
             <Content/>
             </div>
             <Footer/>
-            
           </React.Fragment>
         )
     }

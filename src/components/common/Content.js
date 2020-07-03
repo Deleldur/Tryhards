@@ -1,16 +1,14 @@
 import React, { Component } from 'react'
-
-
-
- class Content extends Component {
+class Content extends Component {
     render() {
         return (
             <div>
-
+             <section id="welcome">
              <h1 className="welcome">
                  Welcome to Tryhards!
             </h1>
-
+            
+             
              <p className="info">
                  This is Tryhards a ...serius? guild! well
                  atleast we have fun! We make our 
@@ -29,14 +27,100 @@ import React, { Component } from 'react'
                  you have what it takes to be part of this dysfunctional family 
                  feel free to look further down the page on the recruitment section. 
             </p>
+            </section>
 
-            <div className="boss"></div>
+            <div className="picture"></div>
 
             <hr className="line-break"/>
 
             
-
+            <section id="media">
             <h1 className="youtube-title">Tryhards VS Neffarian</h1>
+            <iframe className="youtube-video" width="70%" height="500px" src="https://www.youtube.com/embed/MU9XHQo2BpU" 
+            frameorder="" allow="accelerometer; autoplay; fullscreen; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
+            </section>
+
+            <h2 className="more-video"> For more videos check out Tryhards Youtube channel</h2>
+             
+
+            <a className="youtube-link" href="https://www.youtube.com/channel/UCmw6z9OR-kzLATt_6w_-0hA?view_as=subscriber" target="_blank">
+            </a>
+
+            <section id="recruitment">
+            
+            <hr className="line-break"/>
+
+            </section>
+            
+            <h1 className="recruitment">
+                Recruitment
+            </h1>
+
+            
+
+            <p className="info">
+                 We are currently looking for the following classes
+            </p>     
+
+                 <ul className="ul">
+
+                    <li>Warlock</li>
+
+                      <br></br>
+
+                    <li>Priest</li>
+
+                      <br></br>
+
+                    <li>Druid</li>
+
+                </ul>
+                
+                <p className="info">
+                 But ofcourse we are always also looking for exeptional players of any class,
+                 if you think you got what it takes to be of benefit to out guild please contact 
+                 anyone of our officers or guild master so we can have a chatt.
+                </p>
+
+            
+
+            <hr className="line-break"/>
+
+            <section id="contacts">
+
+            <h1 className="recruitment">
+                Contacts
+            </h1>
+
+            </section> 
+
+            <p className="info">
+              To get in touch with us please add us to either Battle.ID or Discord
+            </p>
+              
+              <ul className="ul">
+                    <li >Poxpoone#3483 - battle.ID</li>
+                    <li>Poxpoone#7200 - Discord</li>
+                    
+                    <br></br>
+                    
+                    <li>Kelthar#4950 - battle.ID</li>
+                    <li>Kelthar#1209 - Discord</li>
+
+                    <br></br>
+
+                    <li>Aritus#4560 - battle.ID</li>
+                    <li>Aritus#1230 - Discord</li>
+
+                    <br></br>
+
+                    <li>Skade#0097 - battle.ID</li>
+                    <li>Skade#6431 - Discord</li>
+                </ul>
+            
+
+               
 
             </div>
 

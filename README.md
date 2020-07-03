@@ -88,4 +88,4 @@ https://prettier.io/docs/en/configuration.html
   read more
   https://coderrocketfuel.com/article/embed-a-youtube-video-in-a-react-webpage
 
-  run npm install react-player --save
+  

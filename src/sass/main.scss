@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
 @import "color","navigation","simple-grid","typeography";
 
-
-
 .banner {
-
  background-image: url("/src/img/B1.jpg");
  max-width: 1260px;
  height: 50vh;
@@ -18,117 +15,258 @@
  background-repeat: no-repeat;
  margin-bottom: 0;
  margin-top: 0;
- 
-    
-}
+ }
 
 .tryhards {
-    padding-top: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 3rem;
-    text-align: center;
-    color: $red;
-    -webkit-text-stroke: 0.1px $gold;
+padding-top: 80px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 4.5rem;
+text-align: center;
+color: $red;
+-webkit-text-stroke: 0.1px $gold;
 }
     
-@media (min-width: 600px) {
-    .tryhards {
-        font-size: 4.5rem;
-    }
-}
 
 .community {
-    font-size: 2rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    color: $red;
-    -webkit-text-stroke: 0.1px $gold;
-}
-
-@media (min-width: 600px) {
-    .community {
-        font-size: 3rem;
-    }
+font-size: 3rem;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+color: $red;
+-webkit-text-stroke: 0.1px $gold;
 }
 
 .content {
-    
 color: $white;
 max-width: auto;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 5%;
 margin-top: 0;
-    
 }
 
 .welcome {
     font-family: $Orbitron;
     padding-left: 10%;
+    padding-right: 10%;
     padding-top: 5%;
     margin-top: 0;
-    
-}
-
-.info {
-    
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 7%;
-    padding-top: 3%;
-}
-
-.boss {
-    background-image: url("/src/img/boss.jpg");
-    max-width: 1000px;
-    height: 35vh;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-style: solid;
-    border-width: medium;
-    border-color: $gold;
-    margin-bottom: 80px;
-}
-
-.main-footer {
-    background-color: $black;
-    color: $white;
-    height: auto;
-    padding-top: 2%;
-    overflow: hidden;
     text-align: center;
     
-    border-top: medium solid $gold;
+}
+
+
+.info {
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 3%;
+padding-top: 3%;
+text-align: center;
+}
+
+
+.picture {
+background-image: url("/src/img/boss.jpg");
+max-width: 1000px;
+height: 35vh;
+background-size: cover;
+margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-style: solid;
+border-width: medium;
+border-color: $gold;
+margin-bottom: 80px;
+}
+
+
+
+.main-footer {
+background-color: $black;
+color: $white;
+height: auto;
+padding-top: 2%;
+overflow: hidden;
+text-align: center;
+margin-top: 5%;
+border-top: medium solid $gold;
 }
 
 .footer-text {
-    font-size: 15px;
+font-size: 15px;
 }
 
 .youtube-title {
-    padding-top: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 2rem;
-    text-align: center;
-    color: $red;
-    -webkit-text-stroke: 0.1px $gold;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 50px;
+font-size: 3rem;
+text-align: center;
+color: $red;
+-webkit-text-stroke: 0.1px $gold;
 }
     
-@media (min-width: 600px) {
-    .youtube-title {
+
+.youtube-video {
+border: medium solid $gold;
+margin-left: 15%;
+margin-top: 2%;
+margin-bottom: 2%;
+max-height: 40vh;
+}
+
+
+.line-break {
+max-width: 1000px;
+margin-top: 8%;
+margin-bottom: 8%;
+border: thin solid $gold;
+}
+
+
+.more-video {
+font-family: $Orbitron;
+text-align: center;
+margin-top: 4%;
+}
+
+
+.youtube-link {
+background-image: url("../img/youtube.svg");
+height: 150px;
+width: 150px;
+display: block;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.recruitment {
+font-family: $Orbitron;
+text-align: center;
+margin-top: 4%;
+}
+
+
+.ul {
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 3%;
+padding-top: 3%;
+font-size: 1.3rem;
+align-items: center;
+text-align: center;
+list-style-type: none;
+}
+
+
+
+// MEDIA SECTION FOR DIFFERENT SCREEN RESOLUTIONS
+
+
+
+@media (max-width: 768px) {
+    .tryhards {
         font-size: 3rem;
     }
 }
 
-.line-break {
-    max-width: 1000px;
-    
+@media (max-width: 768px) {
+    .community {
+        font-size: 2rem;
+    }
 }
+
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .info {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-video {
+        max-height: 20vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .line-break {
+       max-width: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+    .line-break {
+       max-width: 380px;
+    }
+}
+
+@media (max-width: 380px) {
+    .line-break {
+       max-width: 300px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .more-video {
+       font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-link {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .recruitment {
+       font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .ul {
+       font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .picture {
+    background-image: url("/src/img/warrior2.png");
+    height: 500px;   
+    max-width: 500px;     
+  }
+}
+
+@media (max-width: 415px) {
+    .picture {
+    background-image: url("/src/img/warrior2.png");
+    height: 350px;   
+    max-width: 280px;     
+  }
+}
+
+
+
 
 
 

@@ -11,7 +11,8 @@ import React, { Component } from 'react'
                         <div className="row">
                        
                         <p className="footer-text">
-                            &copy;{new Date().getFullYear()} TRYHARDS  | ALL right reserved |
+                            &copy;{new Date().getFullYear()} TRYHARDS  | ALL right reserved | All 
+                            trademarks referenced herein are properties of their respective owners.
                         </p>
                         
                         </div>
