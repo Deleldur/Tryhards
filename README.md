@@ -1,4 +1,4 @@
-# react-starter-template-v1a
+# tryhards-guild-recruitment-page
 
 react template built from the ground up
 
