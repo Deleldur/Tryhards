@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 class Content extends Component {
     render() {
         return (
+
             <div>
+
              <section id="welcome">
+
              <h1 className="welcome">
                  Welcome to Tryhards!
             </h1>
@@ -27,6 +30,7 @@ class Content extends Component {
                  you have what it takes to be part of this dysfunctional family 
                  feel free to look further down the page on the recruitment section. 
             </p>
+            
             </section>
 
             <div className="picture"></div>

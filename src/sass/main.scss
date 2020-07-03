@@ -2,19 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
 @import "color","navigation","simple-grid","typeography";
 
+
 .banner {
- background-image: url("/src/img/B1.jpg");
+ 
  max-width: 1260px;
- height: 50vh;
+ height: 550px;
  background-size: cover;
  margin-left: auto;
  margin-right: auto;
  display: block;
  border-bottom: medium solid $gold;
- background-position: center top;
+ background-position: center center;
  background-repeat: no-repeat;
  margin-bottom: 0;
  margin-top: 0;
+ transition: background-image 0.5s ease-in;
  }
 
 .tryhards {
@@ -168,6 +170,12 @@ list-style-type: none;
 // MEDIA SECTION FOR DIFFERENT SCREEN RESOLUTIONS
 
 
+@media (max-width: 768px) {
+    .banner {
+        height: 400px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .tryhards {
@@ -201,7 +209,8 @@ list-style-type: none;
 
 @media (max-width: 768px) {
     .youtube-video {
-        max-height: 30vh;
+        max-height: 35vh;
+       
     }
 }
 
@@ -253,7 +262,8 @@ list-style-type: none;
     .picture {
     background-image: url("/src/img/warrior2.png");
     height: 500px;   
-    max-width: 500px;     
+    max-width: 500px; 
+       
   }
 }
 
