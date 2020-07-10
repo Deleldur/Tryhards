@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NextButton, BackButton } from "../common";
+
 
 // importing the images
 
@@ -66,7 +66,7 @@ const imgUrls = [
 ];
 
 const ImageSlide = ({ data }) => {
-  console.log("data :" + JSON.stringify(data));
+  
   return (
     <div
       className="banner"
@@ -103,7 +103,7 @@ class Banner extends Component {
   animateBanner = () => {
     let { imageChangeTime } = this.state;
     this.intervalId = setInterval(() => {
-      console.log(this.state.intervalId);
+      
       const lastIndex = imgUrls.length - 1;
       let { pageNum } = this.state;
 
@@ -121,7 +121,7 @@ class Banner extends Component {
 
     clearInterval(this.intervalId);
     const lastIndex = imgUrls.length - 1;
-    console.log("last index : " + lastIndex);
+    
     let { pageNum } = this.state;
     if (pageNum === lastIndex) {
       this.setState({ pageNum: 0 });
@@ -154,14 +154,14 @@ class Banner extends Component {
 
   render() {
     let { pageNum } = this.state;
-    console.log(pageNum);
+    
 
     return (
       <section className="banner">
         <div className="banner">
-          <NextButton next={this.next} />
+          
           <ImageSlide data={imgUrls[pageNum]} />
-          <BackButton prev={this.prev} />
+          
         </div>
       </section>
     );

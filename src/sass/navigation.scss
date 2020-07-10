@@ -7,12 +7,16 @@ $transition: ease-in-out 0.6s;
   top: 0px;
   width: 100%;
   z-index: 3001;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 0em;
+  padding: 0em;
+  
 }
 
 .header nav {
   position: absolute;
   right: 40px;
-  top: 20px;
   display: block;
   transition: $transition;
   float: right;

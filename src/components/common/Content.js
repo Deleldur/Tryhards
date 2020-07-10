@@ -4,6 +4,7 @@ class Content extends Component {
         return (
 
             <div>
+                <section id="home"></section>
 
              <section id="welcome">
 

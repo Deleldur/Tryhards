@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import history from "../components/common/History";
-// import { Router, Switch, Route } from "react-router-dom";
 import "../sass/main.scss";
 import Home from './Pages/Home';
 

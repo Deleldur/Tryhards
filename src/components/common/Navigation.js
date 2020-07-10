@@ -31,7 +31,9 @@ class Navigation extends Component {
 
     let { open, path } = this.state;
     return (
+
       <header className="header">
+
         {/* <div className="container"> */}
         <div
           id="nav-icon"
