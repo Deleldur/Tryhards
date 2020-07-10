@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 
+
+
 // importing the images
 
 import image1 from "../../img/B1.jpg";
@@ -74,7 +76,7 @@ const ImageSlide = ({ data }) => {
         backgroundImage: `url(${data.image})`
       }}
     >
-      <h1>{data.title}</h1>
+      
       {data.body}
     </div>
   );
